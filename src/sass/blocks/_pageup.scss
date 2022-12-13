@@ -1,0 +1,17 @@
+.pageup{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    &:hover{
+        text-decoration: none;
+    }
+    span{
+        display: block;
+        font-size: 30px;
+        color: $main-color;
+        transition: 0.2s transform;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+}

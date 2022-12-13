@@ -1,0 +1,44 @@
+.carousel{
+    padding: 81px 0;
+    &__inner{
+        position: relative;
+        display: flex;
+        align-items: center;
+        img{
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .slide-prev, .slide-next{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #fff;
+        border: none;
+        img{
+            width: 31px;
+            height: 50px;       
+        }
+    }
+    .slide-next{
+        right: 0;
+    }
+    .tns-nav{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        button{
+            padding: 0;
+            width: 10px;
+            border-radius: 100%;
+            margin-right: 3px;
+            border: 2px solid red;
+            height: 10px;
+            background-color: #fff;
+        }
+            
+        .tns-nav-active{
+            background-color: red;  
+        }
+    }
+}

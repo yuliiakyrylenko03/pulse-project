@@ -1,0 +1,240 @@
+@media (max-width: 1200px){
+
+}
+    
+@media (max-width: 991px){
+
+}
+    
+@media (max-width: 768px){
+    .container{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 30px;
+        &_left{
+            text-align: center;
+        }
+    }
+    .header{
+        &__logo{
+            width: 220px;
+        }
+        &__oficial span{
+            font-size: 16px;
+        }
+        &__phone{
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+    .promo{
+        &__wrapper{
+            align-items: center;
+            margin-top: 70px;
+        }
+        &__header{
+            text-align: center;
+            font-size: 36px;
+            line-height: 36px;
+        }
+        &__subheader{
+            text-align: center;
+        }
+        &__icons{
+            margin-top: 60px;
+        }
+        
+    }
+    .advantages{
+        &__wrapper{
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+        &__card{
+            width: 100%;
+            margin-bottom: 15px;
+        }
+        &__descr{
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+    .consultation{
+        padding: 60px 0;
+        min-height: 640px;
+        &__descr{
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    .feed-form{
+        width: 100%;
+    }
+    .carousel{
+        &__inner{
+            img{
+                width: 100%;
+            }
+        }
+        .slide-prev, .slide-next{
+            display: none;
+        }
+    }
+    .testemonials{
+        &__img{
+            margin-right: 40px;
+        }
+    }
+}
+@media (max-width: 576px){
+    .button{
+        width: 100%;
+        &_main{
+            margin-top: 70px;
+        }
+    }
+    .header{
+        flex-wrap: wrap;
+        &__oficial{
+            text-align: end;
+        }
+        &__contact{
+            flex-basis: 100%;
+        }
+        .button{
+            margin-top: 10px;
+            width: 150px;
+        }
+    }
+    .promo{
+        padding-bottom: 70px;
+    }
+    .carousel{
+        padding: 50px 10px;
+    }
+    .catalog{
+        &__tab{
+            width: 150px;
+            &:hover{
+                box-shadow: none;
+            }
+            div{
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+    .catalog-item{
+        &__footer{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__prices{
+            text-align: center;
+            margin-bottom: 5px;
+        }
+    }
+    .testemonials{
+        &__card{
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        &__img{
+            margin: 0 auto;
+        }
+        &__text{
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+    .footer{
+        &__info{
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 400px){
+    .title{
+        font-size: 24px;
+    }
+    .header{
+        &__logo{
+            width: 170px;
+        }
+
+        &__oficial {
+            font-size: 12px;
+            line-height: 12px;
+            span{
+                margin-top: 4px;
+                font-size: 14px;
+            }
+        }
+        &__contact{
+            margin-top: 3px;
+        }
+        &__phone{
+            font-size: 14px;
+            line-height: 14px;
+        }
+        .button{
+            width: 142px;
+        }
+    }
+    .promo{
+        &__header{
+            font-size: 24px;
+            line-height: 24px;
+        }
+        &__subheader{
+            font-size: 18px;
+            line-height: 18px;
+            text-align: center;
+        }
+        &__icons{
+            width: 100%;
+        }
+    }
+    .advantages{
+        &__descr{
+            width: 100%;
+        }
+    }
+    .consultation{
+        &__descr{
+            font-size: 16px;
+        }
+    }
+    .catalog{
+        &__tabs{
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        &__tab{
+            width: 80%;
+            margin-bottom: 10px;
+            transform: none;
+            div{
+                transform: none;
+            }
+        }
+        &__content{
+            margin-top: 40px;
+        }
+    }
+    .modal{
+        width: 100%;
+        height: 100%;
+        &__close{
+            top: 10px;
+            right: 10px;
+        }
+    }
+
+}
+    
+
+                    
+                    
